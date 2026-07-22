@@ -1,0 +1,34 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Logs and temp files ###
+logs/
+*.log
+crash-reports/
+replay-recordings/
+
+### Minecraft run directories ###
+/run/
+/run-data
+
+### caches ###
+/src/generated/resources/.cache
+
+### Code Arts ###
+.codeartsdoer/
+
+### Misc ###
+*.tmp
+*.bak
+*.swp
+*~

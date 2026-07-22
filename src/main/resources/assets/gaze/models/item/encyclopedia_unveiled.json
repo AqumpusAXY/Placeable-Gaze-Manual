@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "placeable_gaze_manual:item/encyclopedia_unveiled_model"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "gaze:item/encyclopedia_unveiled"
+      }
+    },
+    "head": {
+      "parent": "placeable_gaze_manual:item/encyclopedia_unveiled_model_open"
+    }
+  }
+}

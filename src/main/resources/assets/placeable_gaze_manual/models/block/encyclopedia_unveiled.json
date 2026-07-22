@@ -1,0 +1,105 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "placeable_gaze_manual:item/spell_book_models/unveiled_spell_book",
+		"book": "placeable_gaze_manual:item/spell_book_models/unveiled_spell_book"
+	},
+	"elements": [
+		{
+			"from": [4, 3, 3],
+			"to": [11, 4, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [5.25, 2.25, 5.5, 4], "rotation": 90, "texture": "#book"},
+				"east": {"uv": [0.5, 4, 0.25, 6.5], "rotation": 270, "texture": "#book"},
+				"south": {"uv": [2.5, 2.25, 2.75, 4], "rotation": 270, "texture": "#book"},
+				"west": {"uv": [0.25, 6.5, 0, 4], "rotation": 270, "texture": "#book"},
+				"up": {"uv": [0, 2.25, 2.5, 4], "rotation": 270, "texture": "#book"},
+				"down": {"uv": [5.25, 2.25, 2.75, 4], "rotation": 270, "texture": "#book"}
+			}
+		},
+		{
+			"from": [4, 0, 3],
+			"to": [11, 1, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 2.25, 5.25, 4], "rotation": 90, "texture": "#book"},
+				"east": {"uv": [0.5, 4, 0.25, 6.5], "rotation": 270, "texture": "#book"},
+				"south": {"uv": [2.5, 2.25, 2.75, 4], "rotation": 270, "texture": "#book"},
+				"west": {"uv": [0.25, 6.5, 0, 4], "rotation": 270, "texture": "#book"},
+				"up": {"uv": [2.75, 2.25, 5.25, 4], "rotation": 270, "texture": "#book"},
+				"down": {"uv": [8.5, 2.25, 6, 4], "rotation": 270, "texture": "#book"}
+			}
+		},
+		{
+			"from": [4, 1, 3],
+			"to": [5, 3, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [2.5, 7.75, 3, 8], "rotation": 90, "texture": "#book"},
+				"east": {"uv": [3.5, 5.25, 3, 7.75], "rotation": 270, "texture": "#book"},
+				"south": {"uv": [5.5, 7.75, 6, 8], "rotation": 270, "texture": "#book"},
+				"west": {"uv": [3, 7.75, 2.5, 5.25], "rotation": 270, "texture": "#book"},
+				"up": {"uv": [0, 7.75, 2.5, 8], "rotation": 270, "texture": "#book"},
+				"down": {"uv": [3, 7.75, 5.5, 8], "rotation": 270, "texture": "#book"}
+			}
+		},
+		{
+			"from": [5, 1, 4],
+			"to": [10, 3, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 4, 5, 5.25], "rotation": 90, "texture": "#book"},
+				"east": {"uv": [5.5, 2, 6, 4], "rotation": 270, "texture": "#book"},
+				"south": {"uv": [7.5, 4, 8, 5.25], "rotation": 270, "texture": "#book"},
+				"west": {"uv": [5.5, 4, 5, 2], "rotation": 270, "texture": "#book"},
+				"up": {"uv": [3, 4, 5, 5.25], "rotation": 270, "texture": "#book"},
+				"down": {"uv": [5.5, 4, 7.5, 5.25], "rotation": 270, "texture": "#book"}
+			}
+		},
+		{
+			"from": [7.4, 0.1, 7],
+			"to": [11.4, 4.6, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [9, 2.75, 10, 3.75], "rotation": 90, "texture": "#book"},
+				"east": {"uv": [11, 2.25, 10, 2.75], "rotation": 270, "texture": "#book"},
+				"south": {"uv": [10.5, 2.75, 11.5, 3.75], "rotation": 270, "texture": "#book"},
+				"west": {"uv": [10, 2.75, 9, 2.25], "rotation": 270, "texture": "#book"},
+				"up": {"uv": [8.5, 2.75, 9, 3.75], "rotation": 270, "texture": "#book"},
+				"down": {"uv": [10, 2.75, 10.5, 3.75], "rotation": 270, "texture": "#book"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -180, 0],
+			"translation": [0, -2, 2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, -180, 0],
+			"translation": [0, -2, 2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-137, 10, 90],
+			"translation": [-4.25, 2, -3.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-137, 10, -90],
+			"translation": [4.25, 2, -3.25]
+		},
+		"ground": {
+			"rotation": [-89, 0, 0],
+			"translation": [0, 0, -4],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"rotation": [0, 0, -90],
+			"translation": [4, 8.5, 0]
+		}
+	}
+}

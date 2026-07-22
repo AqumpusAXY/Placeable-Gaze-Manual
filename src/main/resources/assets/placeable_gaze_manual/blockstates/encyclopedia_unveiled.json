@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "placeable_gaze_manual:block/encyclopedia_unveiled"
+    },
+    "facing=east": {
+      "model": "placeable_gaze_manual:block/encyclopedia_unveiled",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "placeable_gaze_manual:block/encyclopedia_unveiled",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "placeable_gaze_manual:block/encyclopedia_unveiled",
+      "y": 270
+    }
+  }
+}

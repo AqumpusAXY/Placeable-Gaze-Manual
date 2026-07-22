@@ -1,0 +1,8 @@
+@MethodsReturnNonnullByDefault
+@ParametersAreNonnullByDefault
+
+package github.aqumpusaxy.placeable_gaze_manual.common;
+
+import net.minecraft.MethodsReturnNonnullByDefault;
+
+import javax.annotation.ParametersAreNonnullByDefault;
